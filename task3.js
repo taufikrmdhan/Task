@@ -3,8 +3,8 @@ function printSegitiga(num) {
     return "Data harus number";
   } else {
     let a = "";
-    for (let i = 1; i <= num; i++) {
-      for (let j = num; j >= i; j--) {
+    for (let i = num; i >=1; i--) {
+      for (let j = 1; j <= i; j++) {
         a += j;
       }
       a += "\n";
